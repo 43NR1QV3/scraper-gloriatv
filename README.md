@@ -40,19 +40,19 @@ O script utiliza as seguintes bibliotecas:
 Para baixar imagens de uma ou mais URLs do Gloria.tv:
 
 ```bash
-node scraper.js https://gloria.tv/post/URL1
+node index.js https://gloria.tv/post/URL1
 ```
 
 Para múltiplas URLs, você pode separá-las por vírgula:
 
 ```bash
-node scraper.js https://gloria.tv/post/URL1,https://gloria.tv/post/URL2
+node index.js https://gloria.tv/post/URL1,https://gloria.tv/post/URL2
 ```
 
 Ou passar cada URL como um argumento separado:
 
 ```bash
-node scraper.js https://gloria.tv/post/URL1 https://gloria.tv/post/URL2
+node index.js https://gloria.tv/post/URL1 https://gloria.tv/post/URL2
 ```
 
 ### Opções Disponíveis
@@ -62,12 +62,12 @@ O script oferece algumas opções para controlar seu comportamento:
 - **--overwrite**: Força a sobrescrita de imagens existentes
 
   ```bash
-  node scraper.js --overwrite https://gloria.tv/post/URL1
+  node index.js --overwrite https://gloria.tv/post/URL1
   ```
 
 - **--skip-existing-dirs**: Pula completamente URLs cujos diretórios já existem
   ```bash
-  node scraper.js --skip-existing-dirs https://gloria.tv/post/URL1
+  node index.js --skip-existing-dirs https://gloria.tv/post/URL1
   ```
 
 ## Estrutura de Arquivos
@@ -81,8 +81,8 @@ output/
   │   ├── 0002-imagem2.jpg
   │   └── ...
   └── [slug-da-url-2]/
-      ├── 0001-imagem1.jpg
-      ├── 0002-imagem2.jpg
+      ├── 0001-imagem1.svg
+      ├── 0002-imagem2.svg
       └── ...
 ```
 
