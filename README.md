@@ -6,7 +6,7 @@ Este script permite baixar automaticamente imagens de postagens do Gloria.tv, or
 
 ### Pré-requisitos
 
-- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- [Node.js](https://nodejs.org/) (versão 20 ou superior)
 - [Yarn](https://yarnpkg.com/) ou NPM
 
 ### Configuração
