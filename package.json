@@ -1,4 +1,8 @@
 {
   "name": "scraper-gloriatv",
-  "packageManager": "yarn@4.6.0"
+  "packageManager": "yarn@4.6.0",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "puppeteer": "^24.6.1"
+  }
 }

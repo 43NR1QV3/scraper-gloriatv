@@ -10,4 +10,5 @@
 # Documentation here: https://yarnpkg.com/features/caching#zero-installs
 
 #!.yarn/cache
-.pnp.*
+node_modules
+output
